@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/kadiytoure/node_template_serveur#readme",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "mustache": "^2.3.0"
   }
 }

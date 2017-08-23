@@ -2,15 +2,26 @@ const fs = require('fs');
 const express = require('express');
 const mustache = require('mustache');
 
-let db = ["Toto", "Tata", "Titi", "John", "Tutu"];
+let db = [{
+        name: "Coding Dojo",
+        place: "Tour du Web"
+    },
+    {
+        name: "Apprendre à Coder",
+        place: "Simplon Villeurbanne"
+    },
+    {
+        name: "Découverte de Symphony 3",
+        place: "Kotobo"
+    }
+];
 let app = express();
 
 
 app.get("/", function(req, resp) {
     resp.render('index', {
-        name: 'panda',
-        adjective: 'funny',
-        nameList: db
+
+        events: db
     });
 });
 

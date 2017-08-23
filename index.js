@@ -2,12 +2,15 @@ const fs = require('fs');
 const express = require('express');
 const mustache = require('mustache');
 
+let db = ["Toto", "Tata", "Titi", "John", "Tutu"];
 let app = express();
 
+
 app.get("/", function(req, resp) {
-    res.render('index', {
+    resp.render('index', {
         name: 'panda',
-        adjective: 'funny'
+        adjective: 'funny',
+        nameList: db
     });
 });
 

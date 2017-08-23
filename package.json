@@ -1,0 +1,24 @@
+{
+  "name": "node_template_serveur",
+  "version": "0.0.1",
+  "description": "node.js server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadiytoure/node_template_serveur.git"
+  },
+  "keywords": [
+    "node.js",
+    "server",
+    "express"
+  ],
+  "author": "kadiy_simplon tourekadiy@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadiytoure/node_template_serveur/issues"
+  },
+  "homepage": "https://github.com/kadiytoure/node_template_serveur#readme"
+}
